@@ -752,3 +752,8 @@ body.no-scroll {
     opacity: 1;
   }
 }
+
+.slide img {
+  will-change: opacity, transform;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
